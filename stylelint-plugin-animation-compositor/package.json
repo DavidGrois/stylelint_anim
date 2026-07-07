@@ -1,0 +1,26 @@
+{
+  "name": "stylelint-plugin-animation-compositor",
+  "version": "0.1.0",
+  "description": "Stylelint plugin that flags non-compositor properties animated inside @keyframes and auto-fixes them to transform equivalents",
+  "type": "module",
+  "private": true,
+  "main": "index.mjs",
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin"
+  ],
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "dependencies": {
+    "postcss-value-parser": "^4.2.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^17.0.0"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "jest-preset-stylelint": "^9.2.0",
+    "stylelint": "file:.."
+  }
+}
