@@ -1,5 +1,5 @@
-import valueParser from 'postcss-value-parser';
 import stylelint from 'stylelint';
+import valueParser from 'postcss-value-parser';
 
 const {
 	utils: { report, ruleMessages, validateOptions },
